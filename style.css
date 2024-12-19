@@ -1,0 +1,28 @@
+table{
+    margin: 0 auto;
+    background-color: orange;
+}
+
+td{
+    width: 3cm;
+    height: 3cm;
+    background-color: black;
+    color: aliceblue;
+    font-size: 2cm;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+div{
+    width: 12cm;
+    display: flex;
+    margin: 0 auto;
+}
+
+body{
+    text-align: center;
+}
+
+.V{
+    width: 12cm;
+}
