@@ -105,6 +105,7 @@ function passo(direzione) {
     }
     ricolora(griglia);
     aggiorna_score();
+    vittoria(griglia);
 }
 
 //funzione di fila ritorna se ci sono due elementi uguali di fila negli array esclusi 0
@@ -173,4 +174,12 @@ function magia(){
     }
     ricolora(gril);
     document.getElementById("puls").disabled = true;
+}
+
+function vittoria(gril){
+    for(let i = 0; i<16; i++){
+        if(parseInt(gril[i].innerHTML)==2048){
+            document.getElementById("score").innerHTML = "Hai vinto";
+        }
+    }
 }
