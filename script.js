@@ -183,3 +183,16 @@ function vittoria(gril){
         }
     }
 }
+
+document.addEventListener('keydown', function(event) {
+    if(event.keyCode == 37) {
+        passo(4);
+    }
+    else if(event.keyCode == 38) {
+        passo(1);
+    }else if(event.keyCode == 39) {
+        passo(2);
+    }else if(event.keyCode == 40) {
+        passo(3);
+    }
+});
