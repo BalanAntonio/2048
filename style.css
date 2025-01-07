@@ -26,3 +26,9 @@ body{
 .V{
     width: 12cm;
 }
+
+#score{
+    font-size: 2cm;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
